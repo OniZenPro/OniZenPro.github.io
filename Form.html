@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>Michigan</title>
+
+  <link rel="stylesheet" type="text/css" href="Styles/style2.css">
+  <script src="validate.js" defer></script>
+</head>
+
+<body>
+
+
+   <header>
+    <div class="header-bar">
+      <img class="michigan-icon" src="Images/michigan-icon.png" alt="">
+      <h1 class="website-title">Pure Michigan</h1>
+    </div>
+   </header>
+
+   <nav>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        Cities
+        <ul class="city-links">
+          <li><a href="Grand Rapids.html">Grand Rapids</a></li>
+          <li><a href="Bloomfield.html">West Bloomfield</a></li>
+          <li><a href="Detroit.html">Detroit</a></li>
+          <li><a href="Traverse City.html">Traverse City</a></li>
+        </ul>
+      </li>
+      <li><a href="Form.html">Form</a></li>
+    </ul>
+   </nav>
+   <main>
+
+    <div class="main-content-container">
+      <h2>Form</h2>
+      <section class="image-description-box-container">
+        <form id="myForm">
+            <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" placeholder="Your First Name here">
+            <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" placeholder="Your Last Name here">
+            <label for="email">E-Mail Address:</label>
+                <input type="email" id="email" placeholder="Your E-Mail" required>
+            <label for="verifyEmail">Verify Email:</label>
+                <input type="email" id="verifyEmail" placeholder="Input your E-Mail again to verify" required>
+            <label for="textbox">Got a question?</label>
+                <textarea name="textbox" id="textbox" cols="30" rows="10">Type your question!</textarea>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+      </section>
+    </div>
+
+
+   </main>
+
+   <aside class="quick-infobox">
+
+  </aside>
+  
+  
+   <footer>
+    <h5> &copy; 2023 Student: George Lo | Western Governors University </h5>
+   </footer>
+
+</body>
+
+</html>
